@@ -7,5 +7,6 @@ if b == '64bit':
     __import__("DUMP").Spy()
     
 elif b == '32bit':
-    print(" your phone is 32 bit \n 32 bit comming soon")
+    __import__("DUMP32").Spy()
+    
  
